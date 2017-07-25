@@ -17,7 +17,8 @@ public class UserController {
 	@RequestMapping("/test")
 	public String saveUser(User user) {
 		System.out.print(userService);
-		//userService.save(user);
+		user.setName("Trunk");
+		userService.save(user);
 		return "success";
 	}
 }
