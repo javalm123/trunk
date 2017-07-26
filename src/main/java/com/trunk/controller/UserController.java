@@ -19,6 +19,9 @@ public class UserController {
 		System.out.print(userService);
 		user.setName("Trunk");
 		userService.save(user);
+		
+		
+		System.out.println("提交测试");
 		return "success";
 	}
 }
