@@ -75,6 +75,8 @@ public class BaseDaoImpl<T>  implements BaseDao<T>{
 	public List<T> findAll() {
 		Criteria c = getSession().createCriteria(clazz);
 		return c.list();
+		
+		//return c.list();
 	}
 	
 	/**
