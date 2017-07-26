@@ -18,6 +18,7 @@ public class UserController {
 	public String saveUser(User user) {
 		System.out.print(userService);
 		user.setName("Trunk");
+		System.out.println("刘伟更新了这行代码");
 		userService.save(user);
 		return "success";
 	}
