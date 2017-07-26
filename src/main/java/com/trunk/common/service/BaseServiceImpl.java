@@ -9,6 +9,12 @@ import org.hibernate.criterion.Criterion;
 import com.trunk.common.dao.BaseDao;
 import com.trunk.common.dao.Where;
 
+/**
+ * 
+ * @author 周颖
+ *
+ * @param <T>
+ */
 public class BaseServiceImpl<T> implements BaseService<T> {
 
 	
