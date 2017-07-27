@@ -122,6 +122,19 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>4.2.0.Final</version>
 		</dependency>
+		
+		<!-- jstl -->
+		<dependency>
+   			 <groupId>javax.servlet</groupId>
+   			 <artifactId>jstl</artifactId>
+    		 <version>1.2</version>
+		</dependency>
+		<dependency>
+    		<groupId>taglibs</groupId>
+    		<artifactId>standard</artifactId>
+    		<version>1.1.2</version>
+		</dependency>
+		
   </dependencies>
   <build>
   	<!-- Maven插件 -->
