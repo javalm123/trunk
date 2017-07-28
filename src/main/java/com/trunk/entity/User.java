@@ -1,4 +1,4 @@
-package com.trunk.test;
+package com.trunk.entity;
 
 import java.io.Serializable;
 

@@ -36,15 +36,22 @@ public class BaseServiceImpl<T> implements BaseService<T> {
 
 	@Override
 	public void save(T t) {
-		// TODO Auto-generated method stub
+		baseDao.save(t);
+	}
+	public void update(T t){
+		baseDao.update(t);
 		
 	}
-
 	@Override
 	public T get(Serializable id) {
 		return baseDao.get(id);
 	}
 
+	@Override
+	public void delete(Serializable id){
+		baseDao.delete(id);
+		
+	}
 	@Override
 	public List<T> findAll() {
 		return baseDao.findAll();

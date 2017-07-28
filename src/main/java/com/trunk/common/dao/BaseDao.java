@@ -25,7 +25,7 @@ public interface BaseDao<T> {
 	 * @param t
 	 */
 	public void save(T t);
-	
+	public void update(T t);
 	/**
 	 * 根据主键获取对象
 	 * @param id
@@ -38,6 +38,9 @@ public interface BaseDao<T> {
 	 * @return
 	 */
 
+	public void delete(Serializable id);
+	
+	
 	public List<T> findAll() ;
 	
 	/**

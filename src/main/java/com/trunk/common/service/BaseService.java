@@ -21,7 +21,7 @@ public interface BaseService<T> {
 	 * @param t
 	 */
 	public void save(T t);
-	
+	public void update(T t);
 	/**
 	 * 根据主键获取对象
 	 * @param id
@@ -29,6 +29,8 @@ public interface BaseService<T> {
 	 */
 	public T get(Serializable id);
 	
+	
+	public void delete(Serializable id);
 	/**
 	 * 获取全部对象
 	 * @return

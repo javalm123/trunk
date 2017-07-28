@@ -54,9 +54,18 @@ public class BaseDaoImpl<T>  implements BaseDao<T>{
 	 * @param t
 	 */
 	public void save(T t) {
-		getSession().saveOrUpdate(t);
+		getSession().save(t);
 	}
 	
+	public void update(T t) {
+		getSession().update(t);
+	}
+	public void delete(Serializable id){
+		
+		Query createQuery = getSession().createQuery("delete "+ clazz.getSimpleName()+" where id=?");
+		createQuery.setParameter(0, id);
+		createQuery.executeUpdate();
+	}
 	/**
 	 * 根据主键获取对象
 	 * @param id
