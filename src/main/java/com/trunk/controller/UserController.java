@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.trunk.entity.User;
-import com.trunk.service.impl.UserService;
+import com.trunk.service.UserService;
 
 
 @RequestMapping("/test")

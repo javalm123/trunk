@@ -1,4 +1,4 @@
-package com.trunk.dao.impl;
+package com.trunk.dao;
 
 
 import com.trunk.common.dao.BaseDao;

@@ -5,8 +5,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.trunk.common.service.BaseServiceImpl;
-import com.trunk.dao.impl.UserDao;
+import com.trunk.dao.UserDao;
 import com.trunk.entity.User;
+import com.trunk.service.UserService;
 
 
 
