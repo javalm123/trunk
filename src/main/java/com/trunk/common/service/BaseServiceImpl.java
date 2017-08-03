@@ -15,7 +15,7 @@ import com.trunk.common.dao.Where;
  *
  * @param <T>
  */
-public class BaseServiceImpl<T> implements BaseService<T> {
+public  class BaseServiceImpl<T> implements BaseService<T> {
 
 	
 	

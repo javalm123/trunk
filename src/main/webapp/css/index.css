@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+
+
+	.center{
+		height: 400px;
+	}
+	
+
+	.title{
+		height: 20px;
+		
+	}
+	
+	.left-title{
+		float:left;
+		text-align:left;
+		width: 50%;
+	}
+	.right-title{
+		float:right;
+		text-align:right;
+		width: 50%;
+	}
+	
+	.discriminate{
+		height: 20px;
+	}

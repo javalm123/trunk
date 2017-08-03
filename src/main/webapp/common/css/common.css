@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+	
+body{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.border{
+	border: 0px;
+}
+div{
+	border: 1px solid;
+		
+}
