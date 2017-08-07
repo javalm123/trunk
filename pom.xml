@@ -17,6 +17,19 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    	<!-- Jstl 1.2 -->
+	    <dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>
+    	<!-- Standard  1.1.2 -->
+    	<dependency>
+		    <groupId>taglibs</groupId>
+		    <artifactId>standard</artifactId>
+		    <version>1.1.2</version>
+		</dependency>
     		<!-- log4j 日志 -->
 		<dependency>
 			<groupId>log4j</groupId>
